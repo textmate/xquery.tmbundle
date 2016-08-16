@@ -12,10 +12,6 @@
 	</array>
 	<key>firstLineMatch</key>
 	<string>^\bxquery version\b.*</string>
-	<key>foldingStartMarker</key>
-	<string>(declare|.*\{\s*(//.*)?$)</string>
-	<key>foldingStopMarker</key>
-	<string>(.*\}\s*;?\s*|.*;)</string>
 	<key>keyEquivalent</key>
 	<string>^~X</string>
 	<key>name</key>
