@@ -192,16 +192,48 @@
 		<dict>
 			<key>begin</key>
 			<string>"</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.xquery</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>"</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.xquery</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>string.quoted.double.xquery</string>
 		</dict>
 		<dict>
 			<key>begin</key>
 			<string>'</string>
+			<key>beginCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.begin.xquery</string>
+				</dict>
+			</dict>
 			<key>end</key>
 			<string>'</string>
+			<key>endCaptures</key>
+			<dict>
+				<key>0</key>
+				<dict>
+					<key>name</key>
+					<string>punctuation.definition.string.end.xquery</string>
+				</dict>
+			</dict>
 			<key>name</key>
 			<string>string.quoted.single.xquery</string>
 		</dict>
@@ -231,7 +263,7 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.begin.xquery</string>
+					<string>punctuation.section.scope.begin.xquery</string>
 				</dict>
 			</dict>
 			<key>end</key>
@@ -241,11 +273,11 @@
 				<key>1</key>
 				<dict>
 					<key>name</key>
-					<string>punctuation.definition.end.xquery</string>
+					<string>punctuation.section.scope.end.xquery</string>
 				</dict>
 			</dict>
 			<key>name</key>
-			<string>meta</string>
+			<string>meta.scope.xquery</string>
 			<key>patterns</key>
 			<array>
 				<dict>
